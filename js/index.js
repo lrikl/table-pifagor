@@ -3,8 +3,8 @@
 const tablePifagor = document.getElementById('tablePifagor');
 
 
-let line = Number(prompt("Ведіть кількисть рядків"));
-let column = Number(prompt("Ведіть кількисть стовпчиків"));
+let line = Number(prompt("Введіть кількість рядків"));
+let column = Number(prompt("Введіть кількість стовпчиків"));
 
 if (!line && !column || isNaN(line) && isNaN(column)) {
     alert('Треба задати розмір таблиці (цифрами)');

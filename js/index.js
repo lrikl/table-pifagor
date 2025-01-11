@@ -38,8 +38,6 @@ else {
         
                 row.appendChild(cell);
             }
-    
-            console.log(row);
         
             table.appendChild(row);
         }

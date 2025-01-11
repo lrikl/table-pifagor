@@ -7,7 +7,7 @@ let line = Number(prompt("Ведіть кількисть рядків"));
 let column = Number(prompt("Ведіть кількисть стовпчиків"));
 
 if (!line && !column || isNaN(line) && isNaN(column)) {
-    alert('Треба задати розмір таблиці (цифрами)')
+    alert('Треба задати розмір таблиці (цифрами)');
 }
 else {
     function createSizePifagorTable(table, a, b) {
